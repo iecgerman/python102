@@ -1,3 +1,5 @@
+# comentario de la clase funciones
+
 def Celsius():
   fahrenheit = float(input('what is the Fahrenheit temp? '))
   celcius = (fahrenheit - 32) * 5/9

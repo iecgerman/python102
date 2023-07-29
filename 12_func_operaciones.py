@@ -1,3 +1,5 @@
+# comentario de la clase return
+
 def operaciones(a,b):
   multiplica = (a*b)
   suma = (a+b)
