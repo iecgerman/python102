@@ -1,0 +1,1 @@
+# no se ve el video en el celular
