@@ -36,7 +36,13 @@ if __name__ == '__main__':
   data = read_csv('./app/data.csv')
   # print(data[0])
 
-search = list(filter(lambda country: country['Country/Territory'] == 'Mexico', data))
-print(search)
+
+"""me marca este error: line 39, in <module>
+    search = list(filter(lambda country: country['Country/Territory'] == 'Mexico', data))
+NameError: name 'data' is not defined"""
+
+#esto lo puso un alumno en un comentario
+"""search = list(filter(lambda country: country['Country/Territory'] == 'Mexico', data))
+print(search)"""
 
 # [{'Rank': '10', 'CCA3': 'MEX', 'Country/Territory': 'Mexico', 'Capital': 'Mexico City', 'Continent': 'North America', '2022 Population': '127504125', '2020 Population': '125998302', '2015 Population': '120149897', '2010 Population': '112532401', '2000 Population': '97873442', '1990 Population': '81720428', '1980 Population': '67705186', '1970 Population': '50289306', 'Area (km²)': '1964375', 'Density (per km²)': '64.9082', 'Growth Rate': '1.0063', 'World Population Percentage': '1.6'}]
